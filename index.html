@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Netflix Clone - Watch popular TV shows and movies online. Join today!">
+  <meta name="keywords" content="Netflix, clone, movies, TV shows, watch online">
+  <meta name="author" content="Empty-Hacker">
+
+ <!-- Schema Markup for general webpage -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Netflix Clone",
+    "description": "Netflix Clone by Empty-Hacker - Watch popular TV shows and movies online. Join today!",
+    "author": {
+      "@type": "Person",
+      "name": "Empty-Hacker"
+    }
+  }
+  </script>
+  
+  <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar_netflix">
+        <img src="images/logo.png" alt="Netflix Logo" class="netflix_logo" />
+      </div>
+      <div class="navbar_nav_items">
+        <div class="nav_item">
+          <div class="dropdown_container">
+            <i class="fa fa-globe"></i>
+            <select name="language" id="languageSelect" class="language_drop_down">
+              <option value="english" selected>English</option>
+              <option value="hind">Hindi</option>
+            </select>
+          </div>
+        </div>
+        <div class="nav_item">
+          <button class="sign_in_button">Sign In</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero_bg_img_cont">
+        <img src="images/background.jpg" alt="Netflix Banner Image" class="hero_bg_img" />
+      </div>
+      <div class="hero_bg_overlay"></div>
+      <div class="hero_card">
+        <h1 class="hero_title">
+          The biggest Indian hits. Ready to watch here <br> from ₹ 149.
+        </h1>
+        <h2 class="hero_subtitle">Join today. Cancel anytime.</h2>
+        <p class="hero_desc">
+          <nobr>Ready to watch? Enter your email to create or restart your membership.</nobr>
+          <br><br>
+          <nobr><input type="email" placeholder="Email Address" class="email">&nbsp;&nbsp;<button
+              class="get_started">Get
+              Started ></button></nobr>
+        </p>
+      </div>
+    </section>
+    <section class="style_cards">
+      <div class="card-1">
+        <div class="desc-1">
+          <h1>Enjoy on your TV.</h1>
+          <h3>Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and<br> more.</h3>
+        </div>
+        <img src="images/tv.png" alt="Streaming on TV">
+        <video class="video-1" autoplay playsinline muted loop> <source src="images/1.m4v"
+          type="video/mp4"></video>
+      </div>
+
+      <div class="card-2">
+        <img src="images/mobile.jpg" alt="Netflix Mobile">
+        <div class="desc-2">
+          <h1>Download your shows<br> to watch offline</h1>
+          <h3>Save your favourites easily and always have<br> something to watch.</h3>
+        </div>
+      </div>
+      <div class="card-3">
+        <div class="desc-3">
+          <h1>Watch everywhere</h1>
+          <h3>Stream unlimited movies and TV shows on<br> your phone, tablet, laptop, and TV.</h3>
+        </div>
+        <img src="images/device-pile-in.png">
+        <video class="video-2" autoplay playsinline muted loop>
+          <source src="images/video-devices-in.m4v" type="video/mp4">
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <!-- Example of Internal Linking -->
+  <aside>
+    <h3>Explore More:</h3>
+    <ul>
+      <li><a href="https://empty-hacker.github.io/Femprish/">Popular Movies</a></li>
+      <li><a href="https://empty-hacker.github.io/Netflix-Clone/">Latest TV Shows</a></li>
+    </ul>
+  </aside>
+  
+  <footer class="footer">
+    <p>Questions? Call 000-800-919-1694</p>
+    <div class="footer-cols">
+      <ul>
+        <li>FAQ</li>
+        <li>Investor Relations</li>
+        <li>Privacy</li>
+        <li>Speed Test</li>
+      </ul>
+      <ul>
+        <li>Help Center</li>
+        <li>Jobs</li>
+        <li>Cookie Preferences</li>
+        <li>Legal Notices</li>
+      </ul>
+      <ul>
+        <li>Account</li>
+        <li>Ways to Watch</li>
+        <li>Corporate Information</li>
+        <li>Only on Netflix</li>
+      </ul>
+      <ul>
+        <li>Media Centre</li>
+        <li>Terms of Use</li>
+        <li>Contact Use</li>
+        <li>Speed Test</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
