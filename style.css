@@ -49,13 +49,17 @@ body {
 }
 
 .sign_in_button {
-  border: #dc030f;
-  background-color: #dc030f;
+  border: #E50914;
+  background-color: #E50914;
   color: white;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   height: 35px;
   width: 100px;
+}
+
+button:hover {
+  background-color: rgb(193, 17, 25);
 }
 
 .hero_bg_img_cont {
